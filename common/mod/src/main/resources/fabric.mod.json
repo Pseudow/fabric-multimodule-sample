@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "test",
+  "version": "1.0.1",
+  "name": "Test Hello",
+  "description": "This is an example description!",
+  "authors": [],
+  "icon": "assets\/modid\/icon.png",
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      "net.pseudow.fabric.server.mod.TestHelloServerMod"
+    ],
+    "client": [
+      "net.pseudow.fabric.client.mod.TestHelloClientMod"
+    ],
+    "main": [
+      "net.pseudow.fabric.common.TestHello"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}
